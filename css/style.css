@@ -1,0 +1,266 @@
+/* ===============common css starts ======================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+p {
+    font-family: "Nunito";
+
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+span {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h2 {
+    font-family: "Nunito";
+
+    font-weight: 700;
+    font-style: normal;
+    color: #2462d0;
+}
+
+li {
+    margin-bottom: 10px;
+    /* Adjust the spacing between list items */
+}
+
+/* ===============common css ends ======================= */
+
+
+/* Styles for the accordion container */
+.accordion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Styles for the summary (title) of the accordion */
+.accordion-summary {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Styles for the list items inside the accordion */
+.accordion-list {
+    list-style-type: none;
+    padding: 10px;
+    display: none;
+    /* Hide the list items by default */
+}
+
+/* Show the list items when the accordion is open */
+.accordion[open] .accordion-list {
+    display: block;
+}
+
+/* ===============header css starts ======================= */
+.box {
+    Display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellowgreen;*/
+}
+
+.box1 {
+    width: 70%;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.box11 {
+    /* background-color: green;*/
+    font-family: "Spectral";
+    font-weight: 800;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+.box12 {
+    font-family: "Nunito";
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.box12 div {
+    padding-right: 25px;
+    /* background-color: purple;*/
+}
+
+.box2 {
+    width: 30%;
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: center;
+}
+
+.box2 img {
+    display: block;
+    height: 190px;
+}
+
+
+header {
+    padding-bottom: 10px;
+}
+
+
+
+/* ===============header css ends ======================= */
+
+/* Style for the .info-heading class */
+.info-heading {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Style for the .skills-heading class */
+.skills-heading {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+/* Style for the .info-content class */
+.info-content {
+    font-family: "Nunito";
+    font-weight: 400;
+    /* Adjust the font weight as needed */
+    font-style: italic;
+    /* Adjust the font style as needed */
+    padding: 20px 0;
+}
+
+/* Style for the .skills-content class */
+.skills-content {
+    font-family: "Nunito";
+    font-weight: 400;
+    /* Adjust the font weight as needed */
+    font-style: normal;
+    /* Adjust the font style as needed */
+    line-height: 2;
+    padding-top: 20px;
+}
+
+
+/* ===============Experience section css ends ======================= */
+#Experience h2 {
+    font-family: "Nunito";
+
+    font-weight: 700;
+    font-style: normal;
+    color: #2462d0;
+}
+
+.employmentBox {
+    /*background-color: gold;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.employmentBox {
+    font-family: "Nunito";
+
+    font-weight: 700;
+    font-style: normal;
+    padding: 20px;
+}
+
+.employmentBox .address {
+    font-family: "Nunito";
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+.employmentBox .detailsInfo ul,
+li,
+summary {
+    font-family: "Nunito";
+    font-weight: 300;
+    font-style: normal;
+}
+
+ul li::before {
+    content: "•";
+    /* Add your own bullet point */
+    color: #2462d0;
+    /* Change the color of the bullet point */
+    margin-right: 8px;
+    /* Adjust spacing between the bullet point and text */
+}
+
+
+/* ===============Experience section css ends ======================= */
+h2 {
+    padding: 10px 0;
+}
+
+/*
+h2::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #0f0f0f; 
+    margin-bottom: 10px; 
+    position: relative;
+    top: 1.5em; 
+    left: 0;
+  }
+  */
+
+#Education h2 {
+    font-family: "Nunito";
+
+    font-weight: 700;
+    font-style: normal;
+    color: #2462d0;
+}
